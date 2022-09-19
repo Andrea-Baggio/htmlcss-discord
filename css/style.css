@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;      
+}
+
+.nav-flex {
+    background-color: rgb(37, 94, 233); 
+    padding: 22px;     
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-flex div {
+    display: flex;
+    width: 33%;
+}
+
+.nav-img, .nav-button {
+    justify-content: center;    
+}
+
+.nav-menu {
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.header-container {
+    height: 500px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+.header-flex {
+    margin: auto;
+    height: 500px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-flex h1, p {
+    color: white;
+}
