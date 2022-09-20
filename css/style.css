@@ -74,20 +74,23 @@ a:hover {
     max-width: 78%;
     margin: auto;
     margin-top: 100px;
+}
+
+.light-background {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.image {    
+.image {
+    height: fit-content;
+    flex-basis: 0;
     flex-grow: 1;
+    
 }
-
 
 .text {
     height: fit-content;
-    flex-grow: 1;   
+    flex-basis: 0;
+    flex-grow: 1;
     margin-top: 40px;
-}
-
-.text > p {
-    color: black;
 }
