@@ -64,20 +64,16 @@ a:hover {
     margin-right: 10px;
 }
 
-#arrow {
+.arrow {
     font-size: 16px;
     vertical-align: bottom;
 }
 
-.main-flex {
-    margin-top: 100px;
-    height: 2000px;
-}
-
 .light-background {
     display: flex;
-    max-width: 70%;
+    max-width: 72%;
     margin: auto;
+    padding: 100px 0;
 }
 
 .image {
@@ -104,6 +100,59 @@ a:hover {
 .dark-background {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 70%;
+    max-width: 72%;
     margin: auto;
+    padding: 100px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 72%;
+    margin: auto;
+    padding: 100px 0;
+    background-color: lightgray;
+}
+
+.text-box {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small {
+    height: 200px;
+    width: 360px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    margin-bottom: -50px;
+}
+
+.small-text {
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.purple {
+    background-color: rgb(150, 102, 232);
+    color: white;
+    padding: .4em 0.9em;
+    border-radius: 10em;
+    border: 1px solid rgb(150, 102, 232);
+    margin-top: 50px;
+    
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(35, 35, 35);
 }
